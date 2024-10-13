@@ -1,0 +1,136 @@
+/* Student Registration Title CSS */
+.student-reg {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+/* Input Container CSS */
+.inp-container {
+    margin-top: 9px;
+    background: #f2f2f2;
+}
+.input-container {
+    padding: 16px;
+}
+/* First Name CSS */
+.first-name {
+    display: flex;
+    align-items: center;
+    gap: 103px;
+    margin-bottom: 6px;
+}
+/* Last Name CSS */
+.last-name {
+    display: flex;
+    align-items: center;
+    gap: 105px;
+    margin-bottom: 6px;
+}
+/* All Inputs CSS */
+input[type="text"], input[type="email"] , input[type="tel"], input[type="gender"] ,input[type="date"] , input[type="password"],
+input[type="select"] , textarea{
+    width: 39%;
+    padding: 10px;
+}
+/* Email Input CSS */
+.email {
+    display: flex;
+    align-items: center;
+    gap: 136px;
+    margin-bottom: 8px;
+}
+/* Mobile Number CSS */
+.mobile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 127px;
+}
+/* Gender Radion Button CSS */
+.gender {
+    display: flex;
+    gap: 123px;
+    margin-bottom: 12px;
+}
+/* Date Of Birth CSS */
+.date-of-birth {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 84px;
+    align-items: center;
+}
+/* Address Input CSS */
+.address {
+    display: flex;
+    margin-bottom: 6px;
+    gap: 120px;
+}
+/* City Input CSS */
+.city {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 145px;
+    align-items: center;
+}
+/* Area Pin Input CSS */
+.area-pin {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 111px;
+}
+/* State Input CSS */
+.state {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 140px;
+}
+/* Qualification CSS */
+.qualification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 87px;
+}
+/* Specialization CSS */
+.specialization {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    display: flex;
+    gap: 78px;
+}
+/* Specialization Input CSS */
+.specialization input[type="checkbox"] {
+    margin-right: 1px;
+    margin-top: 5px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    width: 20px;
+}
+/* Specialization Input Checkbox CSS */
+.specialization input[type="checkbox"] + label {
+    margin-left: 5px;
+}
+/* Password Input CSS */
+.password {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 110px;
+    margin-top: 10px;
+}
+/* Registered Button CSS */
+.brn-registered button {
+    background: #14ba41;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+}
